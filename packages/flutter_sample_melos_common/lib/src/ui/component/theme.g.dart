@@ -159,22 +159,22 @@ typedef FontFamilyRef = AutoDisposeProviderRef<String?>;
 String _$themeDataHash() => r'4479a4aec00cc3367dd6ea47a1f4ab47773b1b39';
 typedef ThemeDataRef = AutoDisposeProviderRef<ThemeData>;
 
-/// テーマデータプロバイダー
+/// テーマデータ
 ///
 /// Copied from [themeData].
 @ProviderFor(themeData)
 const themeDataProvider = ThemeDataFamily();
 
-/// テーマデータプロバイダー
+/// テーマデータ
 ///
 /// Copied from [themeData].
 class ThemeDataFamily extends Family<ThemeData> {
-  /// テーマデータプロバイダー
+  /// テーマデータ
   ///
   /// Copied from [themeData].
   const ThemeDataFamily();
 
-  /// テーマデータプロバイダー
+  /// テーマデータ
   ///
   /// Copied from [themeData].
   ThemeDataProvider call({
@@ -209,11 +209,11 @@ class ThemeDataFamily extends Family<ThemeData> {
   String? get name => r'themeDataProvider';
 }
 
-/// テーマデータプロバイダー
+/// テーマデータ
 ///
 /// Copied from [themeData].
 class ThemeDataProvider extends AutoDisposeProvider<ThemeData> {
-  /// テーマデータプロバイダー
+  /// テーマデータ
   ///
   /// Copied from [themeData].
   ThemeDataProvider({

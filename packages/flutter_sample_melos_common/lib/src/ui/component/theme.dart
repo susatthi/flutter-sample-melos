@@ -25,7 +25,7 @@ ColorScheme colorScheme(
 @riverpod
 String? fontFamily(FontFamilyRef ref) => null;
 
-/// テーマデータプロバイダー
+/// テーマデータ
 @riverpod
 ThemeData themeData(
   ThemeDataRef ref, {
