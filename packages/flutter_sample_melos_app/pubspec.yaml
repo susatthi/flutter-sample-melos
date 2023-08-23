@@ -7,19 +7,50 @@ environment:
   sdk: '>=3.0.6 <4.0.0'
 
 dependencies:
+  cupertino_icons: ^1.0.5
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod: ^2.3.6
   flutter_sample_melos_common:
     path: ../flutter_sample_melos_common
+  flutter_svg: ^2.0.7
+  freezed: ^2.3.4
+  freezed_annotation: ^2.2.0
+  gap: ^3.0.1
+  intl: ^0.18.0
+  json_annotation: ^4.8.1
+  json_serializable: ^6.7.1
+  riverpod_annotation: ^2.1.1
+  roggle: ^0.3.2
 
 dev_dependencies:
   build_runner: ^2.4.6
   custom_lint: ^0.4.0
+  flutter_gen_runner: ^5.3.1
   flutter_test:
     sdk: flutter
   pedantic_mono: ^1.23.0
   riverpod_generator: ^2.2.3
   riverpod_lint: ^1.4.0
 
+flutter_gen:
+  output: lib/util/assets/
+  integrations:
+    flutter_svg: true
+
 flutter:
   uses-material-design: true
+  assets:
+    - assets/common/images/
+    - assets/images/
+  fonts:
+    - family: NotoSansJP
+      fonts:
+        - asset: assets/common/fonts/NotoSansJP/NotoSansJP-Regular.ttf
+          weight: 400
+        - asset: assets/common/fonts/NotoSansJP/NotoSansJP-Medium.ttf
+          weight: 500
+        - asset: assets/common/fonts/NotoSansJP/NotoSansJP-Bold.ttf
+          weight: 700

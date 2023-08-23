@@ -8,5 +8,15 @@ packages:
   - packages/*
 
 scripts:
+  get-dependencies:
+    exec: fvm flutter pub get
+  clean:
+    exec: fvm flutter clean
   analyze:
-    exec: flutter analyze .
+    exec: fvm flutter analyze
+  format:
+    exec: fvm dart format lib/
+  format-dry-exit-if-changed:
+    exec: fvm dart format --dry-run --set-exit-if-changed lib/
+  build-runner:
+    exec: fvm flutter pub run build_runner build --delete-conflicting-outputs
