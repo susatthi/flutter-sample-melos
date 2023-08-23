@@ -16,8 +16,9 @@ linter:
 # see: https://github.com/rrousselGit/freezed/issues/488#issuecomment-894358980
 analyzer:
   exclude:
+    - '**/*.g.dart'
     - '**/*.freezed.dart'
-    - '**/assets/*.gen.dart'
+    - '**/*.gen.dart'
     - '**/firebase_options_*.dart'
   errors:
     invalid_annotation_target: ignore
