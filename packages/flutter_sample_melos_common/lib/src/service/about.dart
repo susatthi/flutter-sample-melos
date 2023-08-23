@@ -17,7 +17,7 @@ class AboutService {
 
   AppInfo get _appInfo => ref.read(appInfoProvider);
 
-  void show({
+  void showDialog({
     required BuildContext context,
   }) =>
       showAboutDialog(

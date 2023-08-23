@@ -8,7 +8,8 @@ class AboutButton extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return TextButton(
-      onPressed: () => ref.read(aboutServiceProvider).show(context: context),
+      onPressed: () =>
+          ref.read(aboutServiceProvider).showDialog(context: context),
       child: const Text('About'),
     );
   }
