@@ -1,0 +1,12 @@
+name: flutter_sample_melos
+
+repository: https://github.com/susatthi/flutter-sample-melos
+
+sdkPath: .fvm/flutter_sdk
+
+packages:
+  - packages/*
+
+scripts:
+  analyze:
+    exec: flutter analyze .
