@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "app-dev",
+      "type": "dart",
+      "request": "launch",
+      "flutterMode": "debug",
+      "program": "packages/flutter_sample_melos_app/lib/main.dart",
+      "args": [
+        "--flavor",
+        "dev",
+        "--dart-define=FLAVOR=dev",
+      ]
+    }
+  ]
+}
