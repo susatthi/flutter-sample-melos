@@ -6,19 +6,11 @@ environment:
   sdk: '>=3.0.6 <4.0.0'
 
 dependencies:
-  cupertino_icons: ^1.0.5
   flutter:
     sdk: flutter
-  flutter_localizations:
-    sdk: flutter
   flutter_riverpod: ^2.3.6
-  flutter_svg: ^2.0.7
   freezed: ^2.3.4
   freezed_annotation: ^2.2.0
-  gap: ^3.0.1
-  intl: ^0.18.0
-  json_annotation: ^4.8.1
-  json_serializable: ^6.7.1
   riverpod_annotation: ^2.1.1
   roggle: ^0.3.2
   universal_platform: ^1.0.0+1
@@ -35,8 +27,6 @@ dev_dependencies:
 
 flutter_gen:
   output: lib/src/gen/
-  integrations:
-    flutter_svg: true
 
 flutter:
   uses-material-design: true
