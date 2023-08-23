@@ -23,7 +23,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: const Text('サンプル'),
+        title: const Text('海空汽組刃ABCabc123あいう'),
       ),
       body: Center(
         child: Column(

@@ -140,13 +140,13 @@ class ColorSchemeProvider extends AutoDisposeProvider<ColorScheme> {
   }
 }
 
-String _$fontFamilyHash() => r'75bcc254708b5378c56a5acf89b87503c272f7fe';
+String _$fontFamilyHash() => r'342c0686c7ba200ced50b9688e3d3247c55103a9';
 
 /// フォントファミリー
 ///
 /// Copied from [fontFamily].
 @ProviderFor(fontFamily)
-final fontFamilyProvider = AutoDisposeProvider<String>.internal(
+final fontFamilyProvider = AutoDisposeProvider<String?>.internal(
   fontFamily,
   name: r'fontFamilyProvider',
   debugGetCreateSourceHash:
@@ -155,7 +155,7 @@ final fontFamilyProvider = AutoDisposeProvider<String>.internal(
   allTransitiveDependencies: null,
 );
 
-typedef FontFamilyRef = AutoDisposeProviderRef<String>;
+typedef FontFamilyRef = AutoDisposeProviderRef<String?>;
 String _$themeDataHash() => r'4479a4aec00cc3367dd6ea47a1f4ab47773b1b39';
 typedef ThemeDataRef = AutoDisposeProviderRef<ThemeData>;
 

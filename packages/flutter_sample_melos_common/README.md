@@ -22,13 +22,4 @@ flutter:
   uses-material-design: true
   assets:
     - assets/common/images/
-  fonts:
-    - family: NotoSansJP
-      fonts:
-        - asset: assets/common/fonts/NotoSansJP/NotoSansJP-Regular.ttf
-          weight: 400
-        - asset: assets/common/fonts/NotoSansJP/NotoSansJP-Medium.ttf
-          weight: 500
-        - asset: assets/common/fonts/NotoSansJP/NotoSansJP-Bold.ttf
-          weight: 700
 ```

@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
-import '../../gen/fonts.gen.dart';
-
 part 'theme.g.dart';
 
 /// シードカラー
@@ -25,9 +23,7 @@ ColorScheme colorScheme(
 
 /// フォントファミリー
 @riverpod
-String fontFamily(FontFamilyRef ref) {
-  return FontFamily.notoSansJP;
-}
+String? fontFamily(FontFamilyRef ref) => null;
 
 /// テーマデータプロバイダー
 @riverpod
