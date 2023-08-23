@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../util/assets/assets.gen.dart';
+import 'component/about.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -22,8 +23,10 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: const Text('Melosサンプル'),
+        actions: const [
+          AboutButton(),
+        ],
       ),
       body: Center(
         child: Column(
