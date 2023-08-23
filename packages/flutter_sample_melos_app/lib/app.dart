@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_sample_melos_common/flutter_sample_melos_common.dart';
 
-import 'home_page.dart';
+import 'feature/home/ui/home_page.dart';
 
 class App extends ConsumerWidget {
   const App({super.key});
@@ -14,6 +14,7 @@ class App extends ConsumerWidget {
     return MaterialApp(
       title: 'Melosデモ',
       theme: lightThemeData,
+      debugShowCheckedModeBanner: false,
       home: const HomePage(),
     );
   }

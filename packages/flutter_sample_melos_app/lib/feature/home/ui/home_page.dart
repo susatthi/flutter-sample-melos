@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'util/assets/assets.gen.dart';
+import '../../../util/assets/assets.gen.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -23,7 +23,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: const Text('海空汽組刃ABCabc123あいう'),
+        title: const Text('Melosサンプル'),
       ),
       body: Center(
         child: Column(
