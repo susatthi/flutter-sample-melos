@@ -1,27 +1,25 @@
-FVM := $(shell which fvm)
-FLUTTER := $(FVM) flutter
-RUN := melos run
+MELOS := melos run
 
 .PHONY: get-dependencies
 get-dependencies:
-	$(RUN) get-dependencies
+	$(MELOS) get-dependencies
 
 .PHONY: clean
 clean:
-	$(RUN) clean
+	$(MELOS) clean
 
 .PHONY: analyze
 analyze:
-	$(RUN) analyze
+	$(MELOS) analyze
 
 .PHONY: format
 format:
-	$(RUN) format
+	$(MELOS) format
 
 .PHONY: format-dry-exit-if-changed
 format-dry-exit-if-changed:
-	$(RUN) format-dry-exit-if-changed
+	$(MELOS) format-dry-exit-if-changed
 
 .PHONY: build-runner
 build-runner:
-	$(RUN) build-runner
+	$(MELOS) build-runner
