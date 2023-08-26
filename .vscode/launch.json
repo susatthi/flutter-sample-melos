@@ -2,15 +2,18 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "app-dev",
+      "name": "app1",
       "type": "dart",
       "request": "launch",
       "flutterMode": "debug",
-      "program": "packages/flutter_sample_melos_app/lib/main.dart",
+      "program": "packages/flutter_sample_melos_app1/lib/main.dart",
       "args": [
-        "--flavor",
-        "dev",
-        "--dart-define=FLAVOR=dev",
+        "--web-renderer",
+        "html",
+        "--web-hostname",
+        "localhost",
+        "--web-port",
+        "5000",
       ]
     }
   ]
