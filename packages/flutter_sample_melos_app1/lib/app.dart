@@ -12,7 +12,7 @@ class App extends ConsumerWidget {
     final lightThemeData =
         ref.watch(themeDataProvider(brightness: Brightness.light));
     return MaterialApp(
-      title: 'Melosデモ',
+      title: 'Melosサンプル1',
       theme: lightThemeData,
       debugShowCheckedModeBanner: false,
       home: const HomePage(),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_sample_melos_common/flutter_sample_melos_common.dart';
 
 import '../../../util/assets/assets.gen.dart';
 import 'component/about.dart';
@@ -23,7 +24,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Melosサンプル'),
+        title: const Text('Melosサンプル1'),
         actions: const [
           AboutButton(),
         ],
@@ -33,13 +34,11 @@ class _HomePageState extends State<HomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Assets.common.images.iconSusatthi.image(width: 200),
-            Assets.images.computerProgrammingMan.image(width: 200),
             const Text(
               'You have pushed the button this many times:',
             ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headlineMedium,
+            CounterText(
+              counter: _counter,
             ),
           ],
         ),
