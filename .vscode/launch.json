@@ -15,6 +15,21 @@
         "--web-port",
         "5000",
       ]
+    },
+    {
+      "name": "app2",
+      "type": "dart",
+      "request": "launch",
+      "flutterMode": "debug",
+      "program": "packages/flutter_sample_melos_app2/lib/main.dart",
+      "args": [
+        "--web-renderer",
+        "html",
+        "--web-hostname",
+        "localhost",
+        "--web-port",
+        "6000",
+      ]
     }
   ]
 }
