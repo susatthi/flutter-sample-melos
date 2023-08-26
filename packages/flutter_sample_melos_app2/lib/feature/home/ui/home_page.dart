@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Assets.common.images.iconSusatthi.image(width: 200),
+            Assets.images.computerProgrammingMan.image(width: 200),
             const Text(
               'You have pushed the button this many times:',
             ),

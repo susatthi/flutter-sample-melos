@@ -27,7 +27,7 @@ Future<void> main() async {
           'https://www.yahoo.co.jp/',
         ),
       ),
-      seedColor: Colors.red,
+      seedColor: Colors.blue,
       fontFamily: FontFamily.notoSansJP,
     ),
   );
